@@ -8,7 +8,7 @@ terraform {
 }
 
 # if you did aws configure
-# it will take credentials from my .aws/config file
+# it will take credentials from .aws/config file
 
 provider "aws" {
   region = "ap-southeast-2"
